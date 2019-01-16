@@ -22,4 +22,4 @@ A utility for transferring multiple GitHub repositories to a new owner (user or 
 
 ## License
 
-All work in this repository is made available under the terms of the AGPLv3 License, a copy of which is provided in the file called `License`. Copyright J.D. Bean 2018
+All work in this repository is made available under the terms of the AGPLv3 License, a copy of which is provided in the file called `License`. Copyright J.D. Bean 2019
