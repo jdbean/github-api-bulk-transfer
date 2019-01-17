@@ -15,7 +15,7 @@ A utility for transferring multiple GitHub repositories to a new owner (user or 
 
 0. Clone this repository and open up a terminal in the root directory
 1. Install `bash`, `curl`, & `jq` and any dependencies if you don't already have them installed
-2. Replace the contents of `repos.txt` with a newline separated list of repositories to transfer in the following format: `USER/REPO_NAME`
+2. Replace the contents of `repos.txt` with a newline separated list of repositories to transfer in the following format: `USER/REPO_NAME` (*See 'Preparation' above*)
 3. Set your GitHub Personal Access Token (or password if you insist) as an environment variable named `GITHUB_SECRET`
 4. Execute the program with your username (OWNER) and the name of the new owner (NEWOWNER): `bash bulk_transfer_repos.sh OWNER NEWOWNER` 
 
