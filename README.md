@@ -1,7 +1,7 @@
 # github-api-bulk-transfer
-A utility for transferring multiple GitHub repositories to a new owner (user or organization). There are lots of reasons to want to transfer repositories to new owners. One example is using GitHub organizations to organize your repositories. The web workflow for transferring ownership of a single repository is tedious and the tedium quickly becomes untenable for users looking to move repositories in bulk. An **UNSUPPORTED AND UNSTABLE PREVIEW** feature for repository transfer has recently been introduced to the GitHub API that allows this process to be automated. This BASH script takes a GitHub Personal Access Token (or password), a newline separated list of repositories, the current owner username, and the new owner name transfers the ownership of each repository to the specified new owner.
+A utility for transferring multiple GitHub repositories to a new owner (user or organization). There are lots of reasons to want to transfer repositories to new owners. One example is using GitHub organizations to organize your repositories. The web workflow for transferring ownership of a single repository is tedious and the tedium quickly becomes untenable for users looking to move repositories in bulk. This BASH script takes a GitHub Personal Access Token (or password), a newline separated list of repositories, the current owner username, and the new owner name transfers the ownership of each repository to the specified new owner.
 
-**THIS UTILITY IS PROVIDED WITH NO WARRANTY OF ANY SORT. USE OF THIS SOFTWARE IS DEPENDENT ON AN UNSTABLE PREVIEW API AND ITS USE COULD RESULT IN LOSS OF DATA AMONG OTHER CONSEQUENCES. USE OF THIS SOFTWARE IS EXCLUSIVELY AT YOUR OWN RISK**
+**THIS UTILITY IS PROVIDED WITH NO WARRANTY OF ANY SORT. ITS USE COULD RESULT IN LOSS OF DATA AMONG OTHER CONSEQUENCES. USE OF THIS SOFTWARE IS EXCLUSIVELY AT YOUR OWN RISK**
 
 ## Preparation
 
