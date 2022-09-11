@@ -23,7 +23,7 @@ function git_repo_transfer(){
     -H "Content-Type: application/json" \
     -H "Accept: application/vnd.github.v3+json" \
     -X POST https://api.github.com/repos/$2/$1/transfer \
-    -d '{"new_owner":"'$3'"}' \
+    -d "{\"new_owner\":\"$3\"}" \
     | jq .
 }
 
