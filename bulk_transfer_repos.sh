@@ -17,7 +17,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/
 Copyright 2019 J.D. Bean
 '
 
-function git_repo_transfer(){ 
+function git_repo_transfer(){
   curl -vL \
   	-u "$2:${GITHUB_SECRET}" \
     -H "Content-Type: application/json" \
@@ -27,6 +27,6 @@ function git_repo_transfer(){
     | jq .
 }
 
-repos=$( cat ./repos.txt) 
+repos=$( cat ./repos.txt)
 for repo in $repos; do (git_repo_transfer "$repo" "$1" "$2"); done
 
