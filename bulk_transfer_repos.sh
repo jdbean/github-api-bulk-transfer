@@ -22,7 +22,7 @@ function git_repo_transfer(){
   	-u "$2:${GITHUB_SECRET}" \
     -H "Content-Type: application/json" \
     -H "Accept: application/vnd.github.v3+json" \
-    -X POST https://api.github.com/repos/$1/transfer \
+    -X POST https://api.github.com/repos/$2/$1/transfer \
     -d '{"new_owner":"'$3'"}' \
     | jq .
 }
